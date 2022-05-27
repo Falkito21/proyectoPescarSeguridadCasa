@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+    
+}
+
+header{
+    background-color: black;
+    color: white;
+    height: 40px;
+}
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    width:100vw;
+    height:100vh;
+    
+}
+
+
+/*INFORMACIÓN DE CONTACTO*/
+.infoContacto{
+    background-color: #F0C929;
+    width:30vw;
+    height:100vh;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    word-wrap: wrap ;
+    
+}
+.infoContacto h1{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.infoContacto li{
+    max-height: 28vw;
+    margin: 30px auto;
+    font-size: 1.3em;
+}
+
+/*COTIZACIÓN DE SERVICIO*/
+.cotizacion_Servicio{
+    width:70vw;
+    height: 100vh;
+    padding: 4%;
+}
+.cotizacion_Servicio h1{
+    font-weight: bold;
+    font-size: 3em;
+}
+
+form{
+    display: flex;
+    gap:2px;
+    flex-direction: column; 
+}
+label{
+    display:flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 2em;
+}
+
+.input-cot{
+    margin: 0 10px;
+    border-radius: 8px;
+}
+
+textarea{
+    max-width: 100px;
+    max-height: 100px;
+    
+}
+
+.enviar{
+    width: 100%;
+    max-width: 200px;
+    background-color: white;
+    padding: 10px 15px;
+    border: none;
+    font-weight: 800;
+    border: 2px solid black;
+    
+}
+
+/*LINK WHATSAPP*/
+.iconoWhatsapp{
+    max-height: 70px;
+    
+}
+.contactoWhatsapp{
+    position: absolute;
+    right:80px;
+    bottom:100px;
+    
+    
+}
+.contactoWhatsapp p{
+    font-size: 2em;
+    
+}
+
+
+
+
+
+
+
+footer{
+    background-color:black;
+    color: white;
+}
